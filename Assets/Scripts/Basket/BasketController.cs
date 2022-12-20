@@ -77,7 +77,7 @@ public class BasketController : MonoBehaviour
 
         Vector3 baseScale = objTransform.localScale;
 
-        tween.Append(objTransform.DOScale(Vector3.zero, 0.3f));
+        tween.Append(objTransform.DOScale(Vector3.zero, 0f));
         tween.Append(objTransform.DOScale(baseScale, 0.3f));
 
         objTransform.position = pos;
